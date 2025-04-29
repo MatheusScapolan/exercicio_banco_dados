@@ -1,5 +1,6 @@
 # exercicio_banco_dados
 
+```
 DROP TABLE IF EXISTS matriculas;
 DROP TABLE IF EXISTS alunos;
 DROP TABLE IF EXISTS cursos;
@@ -61,3 +62,4 @@ FROM matriculas m
 JOIN alunos a ON m.aluno_id = a.id
 JOIN cursos c ON m.curso_id = c.id
 ORDER BY a.nome;
+```
